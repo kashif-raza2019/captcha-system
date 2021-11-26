@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS File for Captcha -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Captcha -Page</title>
+    <style>
+        /* Showing that the integrated class can adopt styles as per the body or form style */
+        body{
+            background-image: linear-gradient(-45deg, #aa37ec, #16eeee);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 19px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Example Form with use of Captcha -->
+    <!-- !Optional! div container with added class 'form-with-captcha' -->
+    <div class="form-with-captcha">
+        <!-- !!IMPORTANT!!  form container with added class 'captcha-enabled-form'-->
+        <form class="captcha-enabled-form">
+            <div class="container-form">
+                <!-- Example inputs -->
+                <label for="name">Name</label>
+                <input type="text" name="name" required />
+                <label for="password">Password</label>
+                <input type="password" name="password" required />
+            </div>
+            <div class="captcha-container"></div>
+            <!-- !!IMPORTANT!! Submit button must be having class 'enable-for-captcha' -->
+            <button type="submit" class="submit-after-valid-captcha">Submit</button>
+        </form>
+    </div>
+    <!-- JS File for Captcha -->
+    <script src="js/main.js"></script>
+</body>
+</html>
