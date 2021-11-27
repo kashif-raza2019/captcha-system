@@ -15,7 +15,7 @@ and your form is at
 ```
   your_project_dir / index.html
 ```
-then add these CSS and JS links to the header and before ending of body in html respectively
+then add these CSS and JS links to the header and before ending of body tag in html respectively
 ```html
   <head>
     <!--   Other Links   -->
@@ -35,7 +35,7 @@ add an empty div as shown below (Just copy paste it)
     <div class = 'captcha-container'>
     </div>
 ```
-and put it whereever you like (mostly you should put it just above the submit button of your form!
+and put it whereever you like (mostly you should put it just above the submit button of your form!)
 then here we come to the last step
 add this ``` submit-after-valid-captcha ``` class to your submit button like here
 ```html
